@@ -416,7 +416,7 @@ section{
 .footer ul li a:hover{
     border-bottom: 3px solid var(--main-color);
 }
-.fotter .copyright{
+.footer .copyright{
     text-align: center;
     margin-top: 40px;
     font-size: 16px;
