@@ -13,6 +13,7 @@
     --main-color: #3B82F6;
     --light-gradent: #3B82F6;
     --dark-gradent: #8B5CF6;
+    --bg-moble:rgba(255, 255, 255, 0.8);
 }
 .darkmode{
     --bg-color: #080808;
@@ -21,6 +22,7 @@
     --main-color: #ea580c;
     --light-gradent: #DF8908;
     --dark-gradent: #ff1d15;
+    --bg-moble:rgba(0, 0, 0, 0.8);
 }
 html {
     font-size: 60%;
@@ -436,7 +438,7 @@ section{
         right: 0;
         width: 50%;
         padding: 1rem 3rem;
-        background: rgba(255, 255, 255, 0.8);
+        background: var(--bg-moble);
         border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
