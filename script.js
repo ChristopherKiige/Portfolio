@@ -56,7 +56,7 @@ function readFunction() {
   } else {
     dots.style.display = "none";
     btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
+    moreText.style.display = "block";
   }
 }
 
