@@ -265,7 +265,7 @@ section{
                 0 0 100px var(--main-color);
 }
 .about-content h2{
-    margin-top: 2rem;
+    margin-top: 10rem;
     font-size: 7rem;
     text-align: left;
 }
@@ -516,6 +516,8 @@ section{
         margin: 2rem 0;
     }
     .about img{
+        float: none;
+        margin-right: 0;
         width: 52vw;
     }
     .contact form{
