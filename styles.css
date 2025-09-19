@@ -290,7 +290,6 @@ section{
     position: relative;
     margin: 2rem;
 }
-
 .journey-img img{
     float: right;
     width: 5vw;
@@ -310,6 +309,23 @@ section{
     position: relative;
     margin-left: 1rem;
     top: 10rem;
+}
+.darkmode .hobbies-img img{
+    content: url("Images/ichigo.png");
+    width: 17vw;
+    transform: scaleX(-1);
+    filter: drop-shadow(0 0 5px var(--main-color))
+            drop-shadow(0 0 10px black);
+}
+.darkmode .hobbies-img img:hover{
+    filter: drop-shadow(0 0 10px black)
+            drop-shadow(0 0 20px var(--main-color))
+}
+.darkmode .journey-img img{
+    content: url("Images/java.png");
+    margin-right: 42rem;
+    filter: drop-shadow(0 0 5px var(--main-color))
+            drop-shadow(0 0 10px black);
 }
 .about-img img:hover{
     box-shadow: 0 0 25px var(--main-color),
