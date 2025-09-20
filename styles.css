@@ -591,3 +591,51 @@ section{
         flex-direction: column;
     }
 }
+@media (max-width:1440px) {
+    .about .about-content h2{
+        margin-top: 13rem;
+    }
+    .flag-img img{
+        top: 4rem;
+    }
+    .journey-img img{
+        margin-right: 22rem;
+        top: 15rem;
+    }
+    .darkmode .journey-img img{
+        margin-right: 23rem;
+        top: 14rem;
+    }
+    .hobbies-img img{
+        width: 20vw;
+        top: 10rem;
+    }
+    .darkmode .hobbies-img img{
+        margin: 1rem;
+        width: 22vw;
+        top: 10rem;
+    }
+}
+@media (min-width:2560px) {
+    .about .about-content h2{
+        margin-top: 9rem;
+    }
+    .journey-img img{
+        width: 9rem;
+        margin-right: 30vw;
+        top: 11rem;
+    }
+    .darkmode .journey-img img{
+        margin-right: 31vw;
+        top: 10rem;
+    }
+    .hobbies-img img{
+        width: 16vw;
+        top: 0rem;
+    }
+    .darkmode .hobbies-img img{
+        margin: 1rem;
+        width: 15vw;
+        top: 5rem;
+    }
+}
