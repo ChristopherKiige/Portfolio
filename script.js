@@ -44,6 +44,15 @@ function typeEffect() {
     }
 }
 
+// When expertise box is clicked the info shows until clicked again
+const expertises = document.querySelectorAll(".expertise-box");
+expertises.forEach(expertise => {
+    expertise.addEventListener("click", () => {
+        expertise.classList.toggle("active");
+    });
+});
+
+
 function readFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
