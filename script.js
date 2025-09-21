@@ -12,9 +12,9 @@ const phrases = [
     "UI Designer",
     "Front-End Developer",
     "Full-Stack Developer",
-    "Software Engineer",
     "UX Designer",
-    "Back-End Developer"
+    "Back-End Developer",
+    "Ready To Create"
 ];
 
 let currentPhrase = 0;
