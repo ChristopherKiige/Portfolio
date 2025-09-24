@@ -40,5 +40,6 @@ This project is open-source; feel free to explore and learn from it.
 ## 📬 Contact  
 - GitHub: [ChristopherKiige](https://github.com/ChristopherKiige)  
 - Email: chriskiige21@gmail.com
-- LinkedIn: [ChristopherKiige]((https://www.linkedin.com/in/christopher-kiige-193620313))  
+- LinkedIn: [Christopher Kiige](https://www.linkedin.com/in/christopher-kiige-193620313)  
+
   
