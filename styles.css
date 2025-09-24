@@ -292,7 +292,9 @@ section{
 }
 .journey-img img{
     float: right;
-    width: 5vw;
+    height: 10%;
+    width: 7%;
+    right: 2%;
     filter: drop-shadow(0 0 5px var(--main-color))
             drop-shadow(0 0 10px #1131e2);
     transition: 0.4s ease-in-out;
@@ -302,7 +304,8 @@ section{
 }
 .hobbies-img img{
     float: right;
-    width: 15vw;
+    height: 100%;
+    width: 25%;
     filter: drop-shadow(0 0 5px var(--main-color))
             drop-shadow(0 0 10px #8AF0F2);
     transition: 0.4s ease-in-out;
@@ -312,7 +315,8 @@ section{
 }
 .darkmode .hobbies-img img{
     content: url("Images/ichigo.png");
-    width: 17vw;
+    height: 100%;
+    width: 31%;
     transform: scaleX(-1);
     filter: drop-shadow(0 0 5px var(--main-color))
             drop-shadow(0 0 10px black);
@@ -476,6 +480,9 @@ section{
     font-size: 7rem;
     color: var(--main-color);
 }
+.darkmode .expertise-box.active .expertise-info .btn:hover{
+    color: white;
+}
 
 /* Projects */
 .projects{
@@ -535,7 +542,7 @@ section{
 
 /* Resume & Certificates*/
 .resume {
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
     padding: 10rem 15%;
     text-align: center;
 }
@@ -617,7 +624,7 @@ section{
 }
 
 /* Responsive design for various screen sizes */
-@media(max-width:1285px){
+@media(max-width:1439px){
     #menu-icon{
         display: block;
     }
@@ -696,12 +703,12 @@ section{
         top: 4rem;
     }
     .journey-img img{
-        margin-right: 22rem;
-        top: 15rem;
+        width: 8%;
+        left: 17%;
     }
     .darkmode .journey-img img{
-        margin-right: 23rem;
-        top: 14rem;
+        width: 9%;
+        left: 19%;
     }
     .hobbies-img img{
         width: 20vw;
