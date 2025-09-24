@@ -250,9 +250,6 @@ section{
     gap: 2rem;
     background: var(--second-bg-color);
 }
-.about-content {
-    flex: 2 1 500px;
-}
 .about-content h2{
     margin-top: 15rem;
     font-size: 7rem;
@@ -277,10 +274,13 @@ section{
     cursor: pointer;
 }
 .about-img img {
-    flex: 1 1 300px;  
-    max-width: 100%;
-    border-radius: 50%;
+    float: left;  
+    width: 32vw;
+    border-radius: 70%;
     box-shadow: 0 0 25px var(--main-color);
+    transition: 0.4s ease-in-out;
+    position: relative;
+    margin-right: 10rem;
 }
 .flag-img img{
     float: right;
