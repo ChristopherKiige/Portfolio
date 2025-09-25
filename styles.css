@@ -299,8 +299,8 @@ section{
             drop-shadow(0 0 10px #1131e2);
     transition: 0.4s ease-in-out;
     position: relative;
-    margin-right: 40rem;
-    top: 15rem;
+    margin-right: 21%;
+    margin-top: 15%;
 }
 .hobbies-img img{
     float: right;
@@ -327,7 +327,6 @@ section{
 }
 .darkmode .journey-img img{
     content: url("Images/java.png");
-    margin-right: 42rem;
     filter: drop-shadow(0 0 5px var(--main-color))
             drop-shadow(0 0 10px black);
 }
@@ -695,51 +694,4 @@ section{
         flex-direction: column;
     }
 }
-@media (max-width:1440px) {
-    .about .about-content h2{
-        margin-top: 13rem;
-    }
-    .flag-img img{
-        top: 4rem;
-    }
-    .journey-img img{
-        width: 8%;
-        left: 17%;
-    }
-    .darkmode .journey-img img{
-        width: 9%;
-        left: 19%;
-    }
-    .hobbies-img img{
-        width: 20vw;
-        top: 10rem;
-    }
-    .darkmode .hobbies-img img{
-        margin: 1rem;
-        width: 22vw;
-        top: 10rem;
-    }
-}
-@media (min-width:2560px) {
-    .about .about-content h2{
-        margin-top: 9rem;
-    }
-    .journey-img img{
-        width: 9rem;
-        margin-right: 30vw;
-        top: 11rem;
-    }
-    .darkmode .journey-img img{
-        margin-right: 31vw;
-        top: 10rem;
-    }
-    .hobbies-img img{
-        width: 16vw;
-        top: 0rem;
-    }
-    .darkmode .hobbies-img img{
-        margin: 1rem;
-        width: 15vw;
-        top: 5rem;
-    }
-}
+
