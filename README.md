@@ -12,7 +12,7 @@ The live site is available here: 👉 [**Portfolio Website**](https://christophe
 ---
 
 ## 🧰 Tech Stack  
-- **HTML5** — structure and content  
+- **HTML** — structure and content  
 - **CSS** — styling, layout, and responsiveness  
 - **JavaScript** — interactivity and dynamic features  
 
