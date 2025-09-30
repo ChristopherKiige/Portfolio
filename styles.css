@@ -699,4 +699,132 @@ section{
         flex-direction: column;
     }
 }
+@media (max-width: 1024px) {
+    html {
+        font-size: 55%;
+    }
+
+    section {
+        padding: 8rem 8%;
+    }
+
+    .header {
+        padding: 2rem 8%;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        gap: 4rem;
+        text-align: center;
+    }
+    #menu-icon {
+        display: block;
+    }
+
+    .nav-controls {
+        top: 15px;
+        right: 15px;
+        gap: 0.8rem;
+    }
+
+    #theme-switch {
+        position: static;
+        height: 45px;
+        width: 45px;
+        font-size: 2rem;
+    }
+
+    .home-content {
+        align-items: center;
+        text-align: center;
+    }
+    .projects-box{
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .home-content h1 {
+        font-size: 5.5rem;
+    }
+
+    .container {
+        font-size: 2.8rem;
+    }
+
+    .home-img img {
+        width: 65vw;
+        max-width: 300px;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 5rem;
+    }
+
+    .about-content h2 {
+        font-size: 4.5rem;
+        margin-top: 5rem;
+    }
+
+    .about-img img {
+        width: 65vw;
+        max-width: 280px;
+        margin: 2rem auto;
+        float: none;
+    }
+
+    .flag-img img,
+    .journey-img img,
+    .hobbies-img img {
+        display: none;
+    }
+
+    .expertise-box {
+        height: auto;
+        padding: 2rem;
+    }
+
+    .expertise-info h4 {
+        font-size: 2.8rem;
+    }
+
+    .expertise-info i {
+        font-size: 5rem;
+    }
+    .project-card img {
+        max-width: 90%;
+        height: auto;
+    }
+}
+@media (max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+    .navbar {
+        width: 80%;
+    }
+    .header {
+        padding: 2rem 5%;
+    }
+    .home-content h1 {
+        font-size: 4.5rem;
+    }
+    .container {
+        font-size: 2.4rem;
+    }
+    .about-content h2,
+    .heading {
+        font-size: 3.5rem;
+    }
+
+    .project-card {
+        padding: 3rem 1.5rem;
+    }
+    .resume-container {
+        grid-template-columns: 1fr;
+    }
+    .expertise-container {
+        grid-template-columns: 1fr;
+    }
+}
 
